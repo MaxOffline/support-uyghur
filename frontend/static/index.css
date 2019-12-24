@@ -1,0 +1,36 @@
+body {
+    background-color : #559ee2;
+}
+.logo{
+    width : 15vw;
+    height : 15vh;
+}
+#question {
+    text-align:center;
+    font-size: 3vh;
+    margin-bottom:20px;
+}
+form {
+    font-size:2vh;
+}
+#form-div {
+    display:block;
+    margin-left:49%;
+}
+#message {
+    text-align:center;
+    font-size: 3vh;
+}
+#submit {
+    background:red;
+    border :2px solid red;
+    border-radius: 3px;
+    color:white;
+    width:60px;
+    cursor:pointer;
+    margin-top:20px;
+}
+#total, #yes, #no {
+    font-size:2vh;
+    text-align:center;
+}

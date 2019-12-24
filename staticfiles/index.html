@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vote</title>
+    <script src='{% static "index.js" %}'></script>
+    <link rel="stylesheet" type="text/css" href='{% static "index.css" %}'>
+</head>
+<body>
+<img class = "logo" src="https://chine-crimes.s3.amazonaws.com/flag.png"/>
+<div id="total"> Total number of votes:  </div>
+<div id = "yes">Total Yes: </div>
+<div id ="no" style ="margin-bottom:30px">Total No: </div>
+<div id="message"></div>
+<div id="question">Do you condemn the chinese government crimes against Uyghurs?</div>
+
+
+    <form id ="voteform" onSubmit = "handleSubmit(event)">
+        <div id ="form-div">
+            <input type="radio" name="status" value="agree" checked > Yes <br>
+            <input type="radio" name="status" value="disagree"> No <br>
+            <button id = "submit">Vote</button>
+        </div>
+    </form>
+
+
+
+
+</body>
+</html>

@@ -1,1 +1,1 @@
-# support-uyghur
+**We stand with Uyghur**
